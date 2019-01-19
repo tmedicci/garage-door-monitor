@@ -125,7 +125,7 @@ char pass[] = "YourWiFiPasswordHere";
 char mqttUserName[] = "YourThingSpeakMQTTUsername"; // Can be any name.
 char mqttPass[] = "YourThingSpeakMQTTAPIKey";       // Change this your MQTT API Key from Account > MyProfile.
 char writeAPIKey[] = "YourThingSpeakChannelWriteAPIKey";  // Change to your channel Write API Key.
-long channelID = 557041;
+long channelID = YourThingSpeakChannelID;
 short fieldID = 1;
 static const char alphanum[] ="0123456789"
                               "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
